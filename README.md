@@ -1,5 +1,14 @@
 # Dijkstra-s-Shortest-Path-Algorithm
 You are given a weighted graph represented as an adjacency list and a source node. Your task is to calculate the shortest path from the source node to all other nodes in the graph using Dijkstra's Algorithm.
+
+
+Input:
+An integer 𝑛, representing the number of nodes in the graph.
+An integer 𝑚, representing the number of edges.
+A list of 𝑚 edges, where each edge is described as (𝑢,𝑣,𝑤)(u,v,w).
+An integer 𝑠s, the source node from which to calculate the shortest paths.
+
+
 Explanation:
 Graph Class: The Graph class stores the adjacency list representation of the graph. Each vertex is a list of Node objects, where each Node represents a neighbor vertex and the weight of the edge connecting them.
 
