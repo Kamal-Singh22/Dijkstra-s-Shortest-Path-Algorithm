@@ -9,6 +9,17 @@ A list of 𝑚 edges, where each edge is described as (𝑢,𝑣,𝑤)(u,v,w).
 An integer 𝑠s, the source node from which to calculate the shortest paths.
 
 
+
+Explanation:
+From the top-left corner, the robot can:
+Go down, down, right.
+Go down, right, down.
+Go right, down, down.
+Constraints:
+1≤𝑚,𝑛≤100 1≤m,n≤100
+The answer is guaranteed to be within the range of a 32-bit integer.
+
+
 Explanation:
 Graph Class: The Graph class stores the adjacency list representation of the graph. Each vertex is a list of Node objects, where each Node represents a neighbor vertex and the weight of the edge connecting them.
 
